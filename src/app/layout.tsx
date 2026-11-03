@@ -8,7 +8,7 @@ const DESCRIPTION =
   "誰でも優先順位付投票（Ranked Choice Voting）を無料で開催できるツール。アカウント不要、候補を並べるだけ。開票のドラマつきで結果発表。";
 
 /** ソースコード（AGPL-3.0 第13条：ネットワーク越しの利用者にソース取得の機会を提供する）。 */
-const SOURCE_URL = "https://github.com/team-mirai/minna-no-rcv-oss";
+const SOURCE_URL = "https://github.com/chikomirai/minna-no-rcv-oss";
 
 /**
  * SNS シェア時のカード（OGP）について。
