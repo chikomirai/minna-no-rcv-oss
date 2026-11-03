@@ -115,10 +115,10 @@ export default function RootLayout({
             </p>
             {/* 提供者の帰属はヘッダーに出さずフッターに留める。 */}
             <p className="m-0 mt-4 font-[family-name:var(--tm-font-latin)] text-[11px] font-semibold tracking-[0.08em] text-tm-gray-500">
-              Powered by <span className="text-tm-teal-hover">チームみらい</span>
+              Powered by <span className="text-tm-teal-hover">みんなのRCV(チームみらい)を元にした非公式のフォーク版です</span>
             </p>
             <p className="m-0 text-[10.5px] text-tm-fg-faint">
-              RCVを社会に広める活動の一環として、無料で提供しています。
+              非公式
             </p>
           </div>
         </footer>
