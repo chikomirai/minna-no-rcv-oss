@@ -84,35 +84,17 @@ export default function RootLayout({
               みんなのRCV は、優先順位付投票を誰でも開催できる無料ツール（プロトタイプ）です。
             </p>
             <p className="m-0 mt-2">
-              <Link
-                href="/terms"
-                className="text-tm-teal-deep underline underline-offset-2"
-              >
-                利用規約・プライバシー
-              </Link>
-              <span className="mx-2" aria-hidden>
-                ·
-              </span>
-              <a
-                href="mailto:contact@team-mir.ai?subject=%5B%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AERCV%5D%20%E9%80%9A%E5%A0%B1%E3%83%BB%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
-                className="text-tm-teal-deep underline underline-offset-2"
-              >
-                通報・お問い合わせ
-              </a>
-              <span className="mx-2" aria-hidden>
-                ·
-              </span>
-              {/* AGPL-3.0 第13条。フォークして自前ホストする人がここを差し替えられるよう、
-                  URL は SOURCE_URL 一箇所にまとめてある。 */}
-              <a
-                href={SOURCE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-tm-teal-deep underline underline-offset-2"
-              >
-                ソースコード
-              </a>
-            </p>
+  {/* AGPL-3.0 第13条。フォークして自前ホストする人がここを差し替えられるよう、
+      URL は SOURCE_URL 一箇所にまとめてある。 */}
+  <a
+    href={SOURCE_URL}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-tm-teal-deep underline underline-offset-2"
+  >
+    ソースコード
+  </a>
+</p>
             {/* 提供者の帰属はヘッダーに出さずフッターに留める。 */}
             <p className="m-0 mt-4 font-[family-name:var(--tm-font-latin)] text-[11px] font-semibold tracking-[0.08em] text-tm-gray-500">
               Powered by <span className="text-tm-teal-hover">みんなのRCV(チームみらい)を元にした非公式のフォーク版です</span>
