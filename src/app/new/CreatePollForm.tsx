@@ -190,7 +190,7 @@ export default function CreatePollForm() {
             選択肢 <span className="text-tm-red">*</span>
           </label>
           <span className="text-[12px] text-tm-fg-muted">
-            {filledCount}/40 ・ 2つ以上
+            {filledCount}/100 ・ 2つ以上
           </span>
         </div>
         <div className="flex flex-col gap-2">
