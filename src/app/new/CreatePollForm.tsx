@@ -69,7 +69,7 @@ export default function CreatePollForm() {
     setOptions((prev) => prev.map((o, idx) => (idx === i ? v : o)));
   }
   function addOption(focus = false) {
-    setOptions((prev) => (prev.length >= 40 ? prev : [...prev, ""]));
+    setOptions((prev) => (prev.length >= 100 ? prev : [...prev, ""]));
     if (focus) {
       // 追加された行の input へフォーカス（次フレームで DOM 反映後）
       requestAnimationFrame(() => {
