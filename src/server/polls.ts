@@ -69,7 +69,7 @@ export type CreatePollInput = {
 };
 
 /** 入力上限。CreatePollForm の maxLength と必ず同じ値にする。 */
-export const LIMITS = { title: 140, description: 1000, label: 120, options: 40 } as const;
+export const LIMITS = { title: 140, description: 1000, label: 120, options: 100 } as const;
 
 /** poll と選択肢を作成し、公開 slug と（作成者にだけ渡す）管理キーを返す。 */
 export async function createPoll(
