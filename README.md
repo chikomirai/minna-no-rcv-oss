@@ -136,3 +136,4 @@ AGPL-3.0 は、改変した版をネットワーク越しに利用者へ提供�
 | --- | --- | --- |
 | `assets/fonts/NotoSansJP-Bold-subset.ttf` | SIL Open Font License 1.1 | [`assets/fonts/OFL.txt`](assets/fonts/OFL.txt) |
 | `public/samples/*.webp` | Unsplash License | [`public/samples/CREDITS.md`](public/samples/CREDITS.md) |
+
